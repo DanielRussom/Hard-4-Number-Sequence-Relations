@@ -1,20 +1,20 @@
 package numbersequencerelations;
 
 public class Equation {
-	private int result;
+	private double result;
 	private String equation;
 	
 	/**
 	 * @param result
 	 * @param equation
 	 */
-	public Equation(int result, String equation) {
+	public Equation(double result, String equation) {
 		super();
 		this.result = result;
 		this.equation = equation;
 	}
 
-	public int getResult() {
+	public double getResult() {
 		return result;
 	}
 
